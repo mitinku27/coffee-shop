@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_flipper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.home.cafecoffeeday.FlipperActivity"
+    android:background="@drawable/cafetoday">
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ViewFlipper
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/viewFlipper">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:srcCompat="@drawable/burgeroffer"
+            android:id="@+id/burgerDealOneImageView" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:srcCompat="@drawable/burger_deal2"
+            android:id="@+id/burgerDealTwoImageView" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:srcCompat="@drawable/coffeeoffer"
+            android:id="@+id/coffeDealOneImageView" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:srcCompat="@drawable/drinksoffer"
+            android:id="@+id/pizzaDealOneImageView" />
+
+
+    </ViewFlipper>
+    </LinearLayout>
+</RelativeLayout>

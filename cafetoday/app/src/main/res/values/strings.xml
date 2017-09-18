@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cafe Today</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="itemList">
+
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>Coffee</item>
+        <item>Cold Drinks</item>
+
+    </string-array>
+    <string name="title_activity_pizza">PizzaActivity</string>
+</resources>
